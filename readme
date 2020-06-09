@@ -1,0 +1,27 @@
+- untuk menggunakan service ini, anda perlu mengikuti beberapa arahan berikut
+- anda perlu menginstall goland di https://www.jetbrains.com/go/
+- jika anda seorang mahasiswa/i, silahkan daftar dengan menggunakan email dari univ/institut anda dan anda akan
+  mendapatkan free goland selama 1 tahun
+- jika anda sudah menginstall goland, silahkan anda lgsg buka project ini di goland
+
+---------------------EKSEKUSI------------------------
+
+- anda bisa langsung menjalankan service ini dengan perintah
+  "go run main.go" (tanpa kutip) di terminal goland anda (pastikan anda terhubung ke internet jika anda baru pertama kali menjalankan service ini)
+
+- jika anda mendapatkan error ketika menjalankan service ini, maka anda perlu mengunduh beberapa library(package) berikut :
+    - go get github.com/badoux/checkmail
+    - go get github.com/jinzhu/gorm
+    - go get golang.org/x/crypto/bcrypt
+    - go get github.com/dgrijalva/jwt-go
+    - go get github.com/gorilla/mux
+    - go get github.com/jinzhu/gorm/dialects/mysql" //If using mysql
+    - go get github.com/jinzhu/gorm/dialects/postgres //If using postgres
+    - go get github.com/joho/godotenv
+
+   anda harus terhubung ke INTERNET, dan silahkan anda ketikkan (copy paste) perintah di atas untuk mengunduh library(package) yg
+   diperlukan untuk service ini
+
+- setelah selesai mengunduh, silahkan buka postman anda dan enjoy !
+
+- Terima Kasih
